@@ -56,7 +56,7 @@ BackstopJS has three steps in a standard workflow:
 
     *Note* the above command creates a new Backstop test group for the _DEV_ report, and creates a set of reference images to test against from the _TEST_ environment. This means that despite our report group being for _DEV_, we are testing _against_ the _TEST_ environment.
 
-- *Test*: `backstop test --configPath=backstop.js --envsFile=envs.js --pathFile=paths --env=dev --testHost=dev`
+- *Test*: `backstop test --configPath=backstop.js --envsFile=envs.js --pathFile=paths.js --env=dev --testHost=dev`
 
     *Note* the above command runs a Backstop test on the _DEV_ report using the _DEV_ website as a basis for the new screenshots. These will be compared to whatever _reference_ images we have created previously (i.e. against _TEST_ from our last command)
 
