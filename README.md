@@ -58,7 +58,7 @@ BackstopJS has three steps in a standard workflow:
 
 - *Test*: `backstop test --configPath=backstop.js --envsFile=envs.js --pathFile=paths --env=dev --testHost=dev`
 
-Note the above command runs a Backstop test on the _DEV_ report using the _DEV_ website as a basis for the new screenshots. These will be compared to whatever _reference_ images we have created previously (i.e. against _TEST_ from our last command)
+    *Note* the above command runs a Backstop test on the _DEV_ report using the _DEV_ website as a basis for the new screenshots. These will be compared to whatever _reference_ images we have created previously (i.e. against _TEST_ from our last command)
 
 ## Sharing Test results with team members:
 
@@ -68,7 +68,7 @@ Unfortunately this process is kind of hacked together at the moment, but it is f
 
 First, install localtunnel:
 
-`npm install -g Localtunnel`
+`npm install -g localtunnel`
 
 Then, start our local Backstop remote service. From the root of our test project (i.e. /home/porkloin/backstop-scaffold), run the following command:
 
