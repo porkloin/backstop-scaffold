@@ -1,0 +1,16 @@
+{
+  "name": "backstop-ziccasso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "paths.js",
+  "scripts": {
+    "hostReview": "parcel backstop_data/review_html_report/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backstopjs": "^3.8.8",
+    "minimist": "^1.2.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
