@@ -1,17 +1,12 @@
 {
-  "name": "backstop-ziccasso",
+  "name": "backstop-scaffold",
   "version": "1.0.0",
   "description": "",
-  "main": "paths.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "dependencies": {
     "backstopjs": "^3.8.8",
-    "concurrently": "^4.1.0",
-    "localtunnel": "^1.9.1",
-    "minimist": "^1.2.0",
-    "parcel-bundler": "^1.12.3"
+    "minimist": "^1.2.0"
   }
 }
